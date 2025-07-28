@@ -34,6 +34,9 @@ else:
         [data-testid="stHeader"], [data-testid="stToolbar"], footer, #MainMenu {
             display: none !important;
         }
+        .stMainBlockContainer  {
+            padding: 0 2rem;
+        }
         .block-container {
             padding: 0;
             margin: 0;
