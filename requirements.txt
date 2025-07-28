@@ -2,3 +2,4 @@ streamlit
 numpy<2.0
 tensorflow
 pickle5
+scikit-learn
