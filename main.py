@@ -35,7 +35,7 @@ else:
             display: none !important;
         }
         .stMainBlockContainer  {
-            padding: 0 2rem;
+            padding: 0 2rem !important;
         }
         .block-container {
             padding: 0;
