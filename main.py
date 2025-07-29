@@ -100,6 +100,7 @@ else:
 
         y_pred_scaled = model.predict(X_pred)
         resolution_delay_hour = scaler.inverse_transform(np.array([[hour, y_pred_scaled[0, 0]]]))[0, 1]
+        resolution_delay_hour = resolution_delay_hour / 24
         resolution_delay_days = resolution_delay_hour / 24
 
         st.write(f"### ⏱️ Délai de résolution prédit : *{resolution_delay_hour:.2f} heures*")
