@@ -31,7 +31,6 @@ else:
     # (Optionnel) Masquer l'en-tête Streamlit et autres éléments natifs
     st.markdown("""
         <style>
-        
         .stMainBlockContainer  {
             padding: 3rem 2rem !important
         }
