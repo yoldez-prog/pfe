@@ -31,11 +31,9 @@ else:
     # (Optionnel) Masquer l'en-tête Streamlit et autres éléments natifs
     st.markdown("""
         <style>
-        [data-testid="stHeader"], [data-testid="stToolbar"], footer, #MainMenu {
-            display: none !important;
-        }
+        
         .stMainBlockContainer  {
-            padding: 0 2rem !important;
+            padding: 3rem 2rem !important
         }
         .block-container {
             padding: 0;
